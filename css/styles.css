@@ -701,8 +701,25 @@ filter: grayscale(110%);
 
 /* ------- responsive del login ------- */
 
+/* Estilos predeterminados para la barra de navegación */
+.navbar-nav {
+  justify-content: space-between;
+}
+
+/* Media query para pantallas más pequeñas (menos de 1000px) */
+@media (max-width: 1000px) {
+  .navbar-nav {
+    justify-content: center; /* Centra los elementos */
+  }
+}
+
+/* Media query para pantallas aún más pequeñas (menos de 600px) */
+@media (max-width: 600px) {
+  .navbar-nav {
+    justify-content: space-between; /* Vuelve a espacio entre elementos */
+  }
+}
 
 
-
-
+/* Estoy trabajando en esto de la barra de navegacion para q sea responsive att: Nacho*/
 
