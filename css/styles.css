@@ -676,13 +676,20 @@ filter: grayscale(110%);
     background-position: -150px center; /* Ajusta la posición para mostrar el logotipo en pantallas aún más pequeñas */
       background-size: cover;
   }
-  
+  .jumbotron {
+    background-position: -150px center;
+    background-size: cover;
+  }
 }
 @media (max-width: 800px) {
   body {
     background-size: cover;
     background-position: -150px center;
       background-size: cover;
+  }
+  .jumbotron {
+    background-position: -150px center;
+    background-size: cover;
   }
 }
 
@@ -696,26 +703,29 @@ filter: grayscale(110%);
     background-position: -150px center; 
     background-size: cover;
   }
- 
+  .jumbotron {
+    background-position: -150px center;
+    background-size: cover;
+  }
 }
 
 /* ------- responsive del login ------- */
 
 /* Estilos predeterminados para la barra de navegación */
-.navbar-nav {
+#navbarNav {
   justify-content: space-between;
 }
 
 /* Media query para pantallas más pequeñas (menos de 1000px) */
 @media (max-width: 1000px) {
-  .navbar-nav {
+  #navbarNav {
     justify-content: center; /* Centra los elementos */
   }
 }
 
 /* Media query para pantallas aún más pequeñas (menos de 600px) */
 @media (max-width: 600px) {
-  .navbar-nav {
+  #navbarNav{
     justify-content: space-between; /* Vuelve a espacio entre elementos */
   }
 }
